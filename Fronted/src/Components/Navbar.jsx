@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 // react icons import compom......
 import { FaSquareInstagram } from "react-icons/fa6";
 import { IoCallSharp } from "react-icons/io5";
-import { BsLinkedin } from "react-icons/bs"
+import { BsLinkedin } from "react-icons/bs";
 
 function Navbar() {
     // define the state
@@ -12,7 +12,7 @@ function Navbar() {
     <>
         <nav className = {show ? "navbar show_navbar" : "navbar"}>
             <div className='logo'>
-                <img src="Fronted/public/logo.jpg" alt="logo" />
+                <img src="heart.png" alt="logo" />
             </div>
             <div className='links'>
                 <ul>
@@ -29,9 +29,7 @@ function Navbar() {
                     <li><Link to={"/"}><BsLinkedin/></Link></li>
                 </ul>
             </div>
- 
         </nav>
-      
     </>
   )
 }

@@ -6,6 +6,8 @@ import NotFound from './Components/NotFound';
 import Donate from './Components/Donate';
 import Navbar from './Components/Navbar';
 import About from './Components/About';
+import Footer from './Components/Footer';
+import "./App.css";
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -14,7 +16,7 @@ import 'react-toastify/dist/ReactToastify.css';
     
     return (
       <>
-      <Routes>
+      <Router>
         <Navbar/>
         <Routes>
             <Route path='/' element={<Home/>}/>
@@ -25,7 +27,7 @@ import 'react-toastify/dist/ReactToastify.css';
         </Routes>
         <Footer/>
         <ToastContainer position='top-centre'/>
-      </Routes>
+      </Router>
 
       </>
     );
