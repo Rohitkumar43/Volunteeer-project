@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Members() {
-  // make an object of image and render it through map() fxn 
+   {/* make an object of image and render it through map() fxn */} 
   const memeberpic = [
     {
       id: 1,
@@ -29,10 +29,31 @@ function Members() {
       tittle: 'Sam Kelly'
     }
 
-  ]
+  ];
   return (
     <>
-     
+    <>
+      <section className="members">
+        <div className="container">
+          <div className="heading_section">
+            <h2 className="heading">MEMBERS</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              accusamus aspernatur hic laboriosam blanditiis atque error eius
+              dolorem fuga harum?
+            </p>
+          </div>
+          <div className="members_container">
+            {memeberpic.map((element) => (
+              <div className="card" key={element.id}>
+                <img src={element.image} alt={element.title} />
+                <h3>{element.title}</h3>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
     </>
   )
 }
