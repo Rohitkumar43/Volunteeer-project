@@ -11,7 +11,7 @@ const Qualities = () => {
     },
     {
       id: 2,
-      image: "/transparency.jpg",
+      image: "Fronted/public/transparency.jpg",
       title: "TRANSPARENCY",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis culpa odio numquam ill laudantium nobis non illum cupiditate vero possimus quod quia nam, unde, labore suscipit obcaecati minus voluptates, autem velit.Facere numquam cum modi, molestiae eius libero mollitia aut!",

@@ -632,6 +632,10 @@ footer div ul a span {
   flex-direction: column;
   gap: 40px;
   width: 100%;
+  /* margin-right: 40px;
+  margin-left: 40px; */
+  padding-right: 130px;
+  padding-left: 130px;
 }
 .qualities h2 {
   color: #111;
@@ -644,13 +648,15 @@ footer div ul a span {
   align-items: center;
 }
 .qualities .container .card .img-wrapper {
+  margin-left: 50px 20px;
   display: flex;
-  min-width: 340px;
+  width: 450px;
+  min-width: 250px;
 }
 .qualities .container .card .content {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
   width: 100%;
 }
 .qualities .container .card .content .title {
